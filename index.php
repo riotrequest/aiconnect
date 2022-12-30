@@ -61,8 +61,9 @@
 
       // Get the user's prompt
       $prompt = $_POST['prompt'] . " and format it for WordPress and check it for grammar and spelling mistakes.";
+      // $prompt = $_POST['prompt']; // This is the original prompt call. You can use it in place of the above.
 
-      // Set the POST data
+      // Set the POST data. I prefer setting these within the code so I don't have to be bothered.
       $data = array(
           'prompt' => $prompt,
           'model' => 'text-davinci-003',
