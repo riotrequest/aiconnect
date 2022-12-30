@@ -49,7 +49,7 @@
     <?php if (isset($_POST['prompt'])): ?>
       <?php
       // Replace with your own API key
-      $api_key = 'YOUR_API_HEY';
+      $api_key = 'YOUR_API_kEY';
 
       // Set up the HTTP request
       $ch = curl_init('https://api.openai.com/v1/completions');
