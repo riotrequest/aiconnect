@@ -1,2 +1,3 @@
 # PHP AI Connect
-I've been working with ChatGPT to create a PHP script that is both functional and useful. It works much like OpenAI's Playground, but without the need to define variables within the code. Simply provide it with an input and after a few seconds it will provide you with an output. I've been using it to test article writing, and I've added extra input commands to the code so that I don't have to manually type them in each time. This script is now working and ready to be used.
+This code was developed using ChatGPT. It allows you to input a prompt and after a seconds it provides you with an output. It doesn't do anything fancy like streaming.<br /><br />
+It's tested and working.
